@@ -33,22 +33,17 @@ A modern, responsive web application for booking healthcare appointments with do
 - **SQLite3** (v5.1.6) - Lightweight database
 - **CORS** (v2.8.5) - Cross-origin resource sharing
 
-### Development Tools
-- **Create React App** - React application setup
-- **Nodemon** - Development server auto-restart
-- **Git** - Version control
-
 ## 🚀 Getting Started
 
 ### Prerequisites
 - Node.js (v14 or higher)
-- npm or yarn package manager
+- npm package manager
 
 ### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/seshu362/NirogGyan---Healthcare-Appointment-Booking-System>
    cd nirog-gyan-appointment
    ```
 
@@ -56,7 +51,7 @@ A modern, responsive web application for booking healthcare appointments with do
    ```bash
    cd backend
    npm install
-   npm start
+   node server.js
    ```
    Server will run on http://localhost:3000
 
@@ -68,7 +63,7 @@ A modern, responsive web application for booking healthcare appointments with do
    ```
    Application will open on http://localhost:3001
 
-## 📱 Usage
+##  Usage
 
 1. **Browse Doctors**: View the list of available doctors with their specializations
 2. **Search & Filter**: Use the search bar and specialization filter to find specific doctors
@@ -115,27 +110,11 @@ nirog-gyan-appointment/
 1. **User Authentication**: Login/register system for patients and doctors
 2. **Real-time Notifications**: WebSocket integration for instant booking updates
 3. **Payment Integration**: Online payment processing for consultation fees
-4. **Video Consultation**: Integration with video calling APIs for telemedicine
-5. **Advanced Search**: Location-based search, doctor ratings, and reviews
-6. **Calendar Integration**: Sync appointments with Google Calendar/Outlook
-7. **SMS/Email Notifications**: Automated reminders and confirmations
-8. **Medical Records**: Patient history and prescription management
-9. **Multi-language Support**: Internationalization for broader accessibility
+4. **Advanced Search**: Location-based search, doctor ratings, and reviews
+5. **Medical Records**: Patient history and prescription management
 10. **Advanced Analytics**: Dashboard for doctors with patient analytics
 
-### Technical Improvements
-1. **TypeScript Migration**: Complete conversion to TypeScript for better type safety
-2. **State Management**: Redux Toolkit for complex state management
-3. **Testing Suite**: Comprehensive unit and integration tests with Jest/React Testing Library
-4. **Performance Optimization**: Code splitting, lazy loading, and caching strategies
-5. **Progressive Web App**: PWA features for offline functionality
-6. **Database Migration**: PostgreSQL for production with proper migrations
-7. **Docker Containerization**: Containerized deployment for scalability
-8. **CI/CD Pipeline**: Automated testing and deployment
-9. **Error Monitoring**: Integration with Sentry for error tracking
-10. **API Documentation**: Swagger/OpenAPI documentation
-
-## 🔨 Challenges Faced and Solutions
+##  Challenges Faced and Solutions
 
 ### 1. Component Communication
 **Challenge**: Managing state between parent and child components for booking flow
@@ -165,11 +144,8 @@ nirog-gyan-appointment/
 **Challenge**: Smooth animations and transitions without performance impact
 **Solution**: Used CSS transforms and transitions with proper hardware acceleration
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👨‍💻 Developer
+## Seshu Developer
 
 Created as part of the NirogGyan Frontend Assignment demonstrating modern React development practices and healthcare application architecture.
 
